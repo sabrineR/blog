@@ -12,14 +12,16 @@
 A blog application using the stack (Node js, Express js, Typescript, React js, Tailwind css, Mysql, Sequelize and Node js).
 
 ## Demo
-
+Unlogged view user
 ![Image description](Unlogged-view-user.png)
 
-
+Logged view user
 ![Image description](Logged-view-user.png)
 
+Article view
 ![Image description](article-view.png)
 
+Admin view
 ![Image description](admin-view.png)
 
 ## Technology
