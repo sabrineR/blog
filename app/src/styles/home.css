@@ -1,0 +1,25 @@
+.card {
+  width: 100%;
+}
+.img {
+  display: block;
+  width: 60% !important;
+}
+/* Réponse dynamique en fonction de la largeur de l'écran */
+@media (max-width: 768px) {
+  .posts-grid {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* 2 colonnes par ligne sur les petits écrans */
+  }
+
+  @media (max-width: 480px) {
+    .posts-grid {
+      grid-template-columns: repeat(
+        1,
+        1fr
+      ); /* 1 colonne par ligne sur les écrans très petits */
+    }
+  }
+}

@@ -1,0 +1,18 @@
+# Ignorer les répertoires node_modules de chaque partie
+/admin/node_modules/
+/app/node_modules/
+/api/node_modules/
+
+# Ignorer les fichiers .env de chaque partie
+/admin/.env
+/app/.env
+/api/.env
+
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+/admin/package-lock.json
+/app/package-lock.json
+/api/package-lock.json

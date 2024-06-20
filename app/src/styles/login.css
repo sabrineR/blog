@@ -1,0 +1,21 @@
+.login-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.login-form {
+  width: 100%;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: 1em;
+}
