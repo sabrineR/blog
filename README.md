@@ -15,9 +15,10 @@ A blog application using the stack (Node js, Express js, Typescript, React js, T
 
 ![Image description](Unlogged-view-user.png)
 
+
 ![Image description](Logged-view-user.png)
 
-![Image description](article.png)
+![Image description](article-view.png)
 
 ![Image description](admin-view.png)
 
