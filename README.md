@@ -34,7 +34,14 @@ The main technologies used to build this application are:
 - Tailwind CSS version 3.4.4
 
 ## Architecture
-To create a high-performance and scalable application,  I implemented Uncle Bob's clean architecture with typescript for the API part.
+
+To create a high-performance and scalable application, I implemented Uncle Bob's clean architecture and DDD with typescript for the API part.
+
+## Configuration
+
+- app: To configure the app, see app/README.md
+- api: To configure the api, see api/README.md
+- admin:To configure the admin, see admin/README.md
 
 ### Install tools
 
@@ -45,9 +52,13 @@ To create a high-performance and scalable application,  I implemented Uncle Bob'
 
 - Start All services container
 
-    ```bash
-    docker-compose up -d
-    ```
+# Build the Docker image
+
+docker-compose build
+
+# Start background services
+
+docker-compose up -d
 
 ## Features
 
